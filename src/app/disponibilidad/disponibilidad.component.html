@@ -1,0 +1,12 @@
+<div class="availability-container">
+    <p class="availability-title">Hoteles disponibles por ciudad prueba tecnica</p>
+  
+    <div *ngFor="let hotel of hotels" class="hotel-card">
+      <h3 class="hotel-name">{{ hotel.nameHotel }}</h3>
+      <p class="room-info">Rooms VIP: {{ hotel.roomsVip }}</p>
+      <p class="room-info">Rooms Premium: {{ hotel.roomsPremium }}</p>
+      <p class="room-info">Rooms Estándar: {{ hotel.roomsEstandar }}</p>
+      <p class="room-info">Rooms cantidad por persona: {{ hotel.cantPeople }}</p>
+    </div>
+  </div>
+  
